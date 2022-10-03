@@ -12,7 +12,7 @@ public class Main {
             switch (escolha) {
                 case 1 -> {
                     String gender;
-                    System.out.println("Insira os dados do utente AAA:");
+                    System.out.println("Insira os dados do utente:");
                     System.out.println("Nome:");
                     String name = inputStr.nextLine();
                     if((novaLista.obterUtente(name)) == null){
